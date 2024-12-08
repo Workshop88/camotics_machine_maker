@@ -22,6 +22,10 @@ This will parse `filespec.xhtml` then generate `filespec.json`, and `filespec.tc
 
 **Note:** `filespec.json` will require additional manual editing to tell [Camotics](https://camotics.org) which components move with X, Y, and Z movement of the tool in the simulated gcode.  See [/example/data/Camotics](/example/data/Camotics/README.md) for detailed instructions.
 
+### Example commandline
+`python src\camotics_machine_maker.py "example\data\Wooden CNC.xhtml"
+This will run the included script on the included data to recreate the `.json` and `.tco` files in the `example\data folder`.  This can be used to validate the script works on your machine and generates output that agrees with the files in source control.
+
 ## Installation
 To install a machine in [Camotics](https://camotics.org):
 1. Copy your `.json` and `.tco` files to the directory containing the other [Camotics](https://camotics.org) machines.  On my Windows machine that is*C:\Program Files (x86)\CAMotics\machines* which will require Administrator privileges.  
