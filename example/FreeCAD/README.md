@@ -2,7 +2,7 @@
 
 This is a basic [FreeCAD](https://www.freecad.org/) model of [Workshop 88](https://blog.workshop88.com/) makerspace's  Wooden CNC machine.
 
-![Workshop 88 Wooden CNC in FreeCAD]("/media/Workshop 88 Wooden CNC in FreeCAD.png")
+![Workshop 88 Wooden CNC in FreeCAD](../../media/Workshop%2088%20Wooden%20CNC%20in%20FreeCAD.png)
 
 **Wooden CNC.FCStd** Assembly of the full CNC Machine, used for .xhtml export
 

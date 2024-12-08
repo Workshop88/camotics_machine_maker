@@ -1,8 +1,8 @@
 # Working Example
 
-The example files in this folder may be installed and tested in your [Camotics](https://camotics.org) installation by following the [installation directions](/README.md#Installation)
+The example files in this folder may be installed and tested in your **Camotics** installation by following the [installation directions](/README.md#Installation)
 
-After running the script, `filespec.json` will require additional manual editing to tell [Camotics](https://camotics.org) which components move with X, Y, and Z movement of the tool in the simulated gcode.  Movement is described by a three element vector in square brackets`[x, y, z]`, values are typically 0 for not moving, 1 for moving in the same direction as the gcode, and -1 for a part moving in the opposite direction of the gcode, e.g. a bed that moves the workpiece under a mill.  For example, a motion of [1,0,-1] would cause a part to move with X, not Y, and opposite to Z).  Motion vectors are provided for the bit (`"tool"`), workpiece (`"workpiece"` blue material to be cut in [Camotics](https://camotics.org) e.g. for moving platens), and each machine part (`"movement"`).  
+After running the script, `filespec.json` will require additional manual editing to tell **Camotics** which components move with X, Y, and Z movement of the tool in the simulated gcode.  Movement is described by a three element vector in square brackets`[x, y, z]`, values are typically 0 for not moving, 1 for moving in the same direction as the gcode, and -1 for a part moving in the opposite direction of the gcode, e.g. a bed that moves the workpiece under a mill.  For example, a motion of [1,0,-1] would cause a part to move with X, not Y, and opposite to Z).  Motion vectors are provided for the bit (`"tool"`), workpiece (`"workpiece"` blue material to be cut in **Camotics** e.g. for moving platens), and each machine part (`"movement"`).  
 
 ### Example working Wooden CNC.json with explanations
 Lines starting with `>` are typically manually edited to configure your tool, workpiece, and machine parts motion.
