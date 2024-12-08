@@ -6,7 +6,7 @@ A Python script to create a Camotics CNC Simulator machines from X3D .xhtml file
 [Camotics](https://camotics.org) is an awesome open source CNC simulator/gcode cut viewer capable of displaying a small variety of consumer machines while simulating machine operations.  Unfortunately, [Camotics](https://camotics.org) lacks native tools/interfaces to import your own machine designs. 
 (See:[https://github.com/CauldronDevelopmentLLC/CAMotics/issues/403](https://github.com/CauldronDevelopmentLLC/CAMotics/issues/403))
 
-![Workshop 88 Wooden CNC]("/media/IMG_4098.JPG") ![Workshop 88 Wooden CNC Closeup]("/media/IMG_3939.JPG")
+![Workshop 88 Wooden CNC](media/IMG_4098.JPG) ![Workshop 88 Wooden CNC Closeup](media/IMG_3939.JPG)
 
 I wanted to create a model of a wooden CNC machine at my local makerspace [Workshop 88](https://blog.workshop88.com/) for use in [Camotics](https://camotics.org) but there is no built into the program to make additional machines so I hacked this Python script together to read X3D .xhtml files I create in [FreeCAD](https://www.freecad.org/) and write the necessary files for [Camotics](https://camotics.org).
 
