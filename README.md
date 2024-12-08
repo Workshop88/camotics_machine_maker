@@ -6,9 +6,10 @@ A Python script to create a Camotics CNC Simulator machines from X3D .xhtml file
 [Camotics](https://camotics.org) is an awesome open source CNC simulator/gcode cut viewer capable of displaying a small variety of consumer machines while simulating machine operations.  Unfortunately, [Camotics](https://camotics.org) lacks native tools/interfaces to import your own machine designs. 
 (See:[https://github.com/CauldronDevelopmentLLC/CAMotics/issues/403](https://github.com/CauldronDevelopmentLLC/CAMotics/issues/403))
 
-![Workshop 88 Wooden CNC](media/IMG_4098.JPG) ![Workshop 88 Wooden CNC Closeup](media/IMG_3939.JPG)
+
 
 I wanted to create a model of a wooden CNC machine at my local makerspace [Workshop 88](https://blog.workshop88.com/) for use in [Camotics](https://camotics.org) but there is no built into the program to make additional machines so I hacked this Python script together to read X3D .xhtml files I create in [FreeCAD](https://www.freecad.org/) and write the necessary files for [Camotics](https://camotics.org).
+![Workshop 88 Wooden CNC]('media/IMG_4098.JPG') ![Workshop 88 Wooden CNC Closeup]("media/IMG_3939.JPG")
 
 The machine files have the same filenames as their names in [Camotics](https://camotics.org) making them easy to find in the file system.  In Windows I found mine in *C:\Program Files (x86)\CAMotics\machines*, which requires Administrator privelege to access.  Machines are defined by two files, a .json file describing the machine and its parts, and a corresponding proprietary .tco file containing geometry for all the parts (points, lines, triangles).  Both files are text and were straight forward to reverse engineer.
 
@@ -34,9 +35,9 @@ To install a machine in [Camotics](https://camotics.org):
 ## Examples
 
 * [Workshop 88 Wooden CNC FreeCAD source files](Example/FreeCAD)
-![Workshop 88 Wooden CNC in FreeCAD]("/media/Workshop 88 Wooden CNC in FreeCAD.png")
+![Workshop 88 Wooden CNC in FreeCAD]("media/Workshop 88 Wooden CNC in FreeCAD.png")
 * [Workshop 88 Wooden CNC exported at .xhtml with the output of the script](example/data)
-![Workshop 88 Wooden CNC .xhtml in the browser]("/media/Workshop 88 Wooden CNC xhtml in browser.png")
+![Workshop 88 Wooden CNC .xhtml in the browser]("media/Workshop 88 Wooden CNC xhtml in browser.png")
 * [Output files modified for correct motion](/example/data/Camotics)
 ![Workshop 88 Wooden CNC in Camotics]("media/Workshop 88 Wooden CNC in Camotics.png")
 
