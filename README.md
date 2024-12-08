@@ -23,8 +23,9 @@ This will parse `filespec.xhtml` then generate `filespec.json`, and `filespec.tc
 **Note:** `filespec.json` will require additional manual editing to tell [Camotics](https://camotics.org) which components move with X, Y, and Z movement of the tool in the simulated gcode.  See [/example/data/Camotics](/example/data/Camotics/README.md) for detailed instructions.
 
 ### Example commandline
-`python src\camotics_machine_maker.py "example\data\Wooden CNC.xhtml"
-This will run the included script on the included data to recreate the `.json` and `.tco` files in the `example\data folder`.  This can be used to validate the script works on your machine and generates output that agrees with the files in source control.
+`python src\camotics_machine_maker.py "example\data\Wooden CNC.xhtml"`
+
+This will run the included script on the included example data to recreate the `.json` and `.tco` files in the `example\data folder`.  This can be used to validate the script works on your machine and generates output that agrees with the files in source control.
 
 ## Installation
 To install a machine in [Camotics](https://camotics.org):
@@ -32,7 +33,7 @@ To install a machine in [Camotics](https://camotics.org):
 2. Start (or restart) [Camotics](https://camotics.org).
 3. Be sure to enable `Toggle Machine Display` ![Toggle Machine Display](/media/Camotics%20Toggle%20Machine%20Display.png)
 4. Go to `Settings` from the `tools` menu ![Settings from Tools menu](/media/Camotics%20Settings.png)
-5. Select your machine from the dropdown list and click `Save` ![Select machine](Camotics%20Select%20Machine.png)
+5. Select your machine from the dropdown list and click `Save` ![Select machine](/media/Camotics%20Select%20Machine.png)
 6. Test your machine by running the default or your own gcode to verify the parts are moving correctly and iterate if necessary.
 
 
