@@ -33,7 +33,7 @@ To install a machine in [Camotics](https://camotics.org):
 
 
 ## Examples
-* [Workshop 88 Wooden CNC FreeCAD source files](Example/FreeCAD)
+* [Workshop 88 Wooden CNC FreeCAD source files](example/FreeCAD)
 ![Workshop 88 Wooden CNC in FreeCAD](/media/Workshop%2088%20Wooden%20CNC%20in%20FreeCAD.png)
 * [Workshop 88 Wooden CNC exported at .xhtml with the output of the script](example/data)
 ![Workshop 88 Wooden CNC .xhtml in the browser](/media/Workshop%2088%20Wooden%20CNC%20xhtml%20in%20browser.png)
