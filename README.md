@@ -33,7 +33,7 @@ To install a machine in [Camotics](https://camotics.org):
 2. Start (or restart) [Camotics](https://camotics.org).
 3. Be sure to enable `Toggle Machine Display` ![Toggle Machine Display](/media/Camotics%20Toggle%20Machine%20Display.png)
 4. Go to `Settings` from the `tools` menu ![Settings from Tools menu](/media/Camotics%20Settings.png)
-5. Select your machine from the dropdown list and click `Save` ![Select machine](Camotics%20Select%20Machine.png)
+5. Select your machine from the dropdown list and click `Save` ![Select machine](/media/Camotics%20Select%20Machine.png)
 6. Test your machine by running the default or your own gcode to verify the parts are moving correctly and iterate if necessary.
 
 
