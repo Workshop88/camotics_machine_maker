@@ -27,13 +27,12 @@ To install a machine in [Camotics](https://camotics.org):
 1. Copy your `.json` and `.tco` files to the directory containing the other [Camotics](https://camotics.org) machines.  On my Windows machine that is*C:\Program Files (x86)\CAMotics\machines* which will require Administrator privileges.  
 2. Start (or restart) [Camotics](https://camotics.org).
 3. Be sure to enable `Toggle Machine Display` ![Toggle Machine Display](/media/Camotics%20Toggle%20Machine%20Display.png)
-4. Go to `Settings` from the `tools` menu ![Settings from Tools menu](/media/Camotics Settings.png)
+4. Go to `Settings` from the `tools` menu ![Settings from Tools menu](/media/Camotics%20Settings.png)
 5. Select your machine from the dropdown list and click `Save` ![Select machine](Camotics%20Select%20Machine.png)
 6. Test your machine by running the default or your own gcode to verify the parts are moving correctly and iterate if necessary.
 
 
 ## Examples
-
 * [Workshop 88 Wooden CNC FreeCAD source files](Example/FreeCAD)
 ![Workshop 88 Wooden CNC in FreeCAD](/media/Workshop%2088%20Wooden%20CNC%20in%20FreeCAD.png)
 * [Workshop 88 Wooden CNC exported at .xhtml with the output of the script](example/data)
@@ -41,8 +40,5 @@ To install a machine in [Camotics](https://camotics.org):
 * [Output files modified for correct motion](/example/data/Camotics)
 ![Workshop 88 Wooden CNC in Camotics](/media/Workshop%2088%20Wooden%20CNC%20in%20Camotics.png)
 
-
-
 # I hope it works for you!
-
 I can't wait to see machines like [MPCNC](https://docs.v1e.com/mpcnc/intro/), and silly stuff like Hello Kitty, and NutterButter CNC machines crazy internet people make for [Camotics](https://camotics.org)!
